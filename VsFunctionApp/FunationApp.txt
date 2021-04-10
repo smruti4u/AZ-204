@@ -1,0 +1,44 @@
+App Service Plan
+	AppService1
+	AppService2
+
+Function App (Admin key)
+	function1 (function1 Key)
+	function2 (function2 Key)
+
+https://azure-function-app.azurewebsites.net/api/HttpTrigger1?code=egXQ3BKjCwxYXwQcl9rd2Lh03wSz5DcLWugfSRLjlCKTxNgS5afyJw==
+https://azure-function-app.azurewebsites.net/api/HttpTrigger1?code=hGSbGTGiiaJWj2LSKYB9g0gdgneohGHNnCfJ2haho5wnJAqNhLLphg==
+
+
+ functionApp -> sending object -> database
+
+	function App2 -> gets Data -> database
+
+
+object post -> ado.net code  -> datbase -> return object
+
+Todo application (Rest)
+- Create Item -> learn Azure, learn function
+- Update Item -> mark item to complete
+- Get All Item -> Get all uncompleted item 
+- Get Item By id
+
+ (POST) baseurl/todos
+ (PUT)  baseurl/todos/id
+ (GET)  baseurl/todos/id
+ (GET)  baseurl/todos
+
+{
+	"Description" : "Learn Azure"
+}
+
+id
+isCompleted
+description
+
+
+
+
+
+
+ 

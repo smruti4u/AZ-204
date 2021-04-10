@@ -1,0 +1,42 @@
+1- Resource Group
+2- App Service Plan
+3- Web App
+4- Deploy WebApp - App Service
+
+www.xyz.com/index.html -> Router -> Packet 1, packet 2, Packet 3 ->Routers ->-> Destination server
+
+SourceInfo
+DestinatioInfo
+Not Secure 
+
+SSL - Encrypted -> Certificate -> https
+
+Scaling:
+
+
+Horizontal Scaling
+
+Vertical Scaling
+
+
+100000 -> WebApp -> LB -> 	Server (50GB 20GB 8COre CPU, 5Ghz)- > 80%, 
+
+							Server2
+							Server3
+							
+WeekDays -> 2Serevrs ->
+
+auto scale:
+
+Duration - 1min, Time Grain Statitics - Average, Time Grain - 10Sec
+
+Time Agrretaion : Count
+Server1 - 15, 20, 15, 20, 15, 20
+
+Server2 - 5, 24, 15, 20, 15, 20
+
+10, 22 , 10, 22 , 10, 22  - 96 > 70 -> Action
+
+WebApp - 3 servers
+
+Scale In - Removing Server
