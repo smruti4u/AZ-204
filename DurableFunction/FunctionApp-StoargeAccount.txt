@@ -1,0 +1,72 @@
+function App -> trigger ->- invokes 
+
+We want to bring some information -> Input binding -> Read Blob (file)
+Return back from function App -> Output binding -> Add Entry Storage
+
+Timer Trigger -> 2 mnt ->
+
+GoTo blob -> Read Content  -> Apllication Logic
+
+Implement -> ADO .net ->
+
+
+Input binding -> Apllication Logic -> Output binding
+
+Vehicle Manufactured -> Vehicle-Chip(Micro Processor) -> BLOB Storage -> Reading File ->  Table Storage
+
+{
+	"VehicleId" : "1234",
+	"ChipNo" : "3456",
+}
+
+org/v1/fea1 ->	functionality1
+org/v1/fea1 -> functionality2
+org/v1/fea3 -  functionality3
+org/v1/sendemail -> SendEmail -> (sendgrid/v3/send)Send Grid
+
+Airline Reservation System -> Single System -> 20 Diffrent DownStream Application ->
+
+Make My trip -> India - Vegas -> india-(Air India) Dubai ->(Emirates) NeWork -> Hotel Reservation (18 Hour) ->(American Airline) Vegas
+
+
+AirIndia - Confirmed - 2hours
+Emirates - ExcepTion - 2 hours
+
+
+
+Durable Function
+
+Orchestartor Client(Sleep)
+Activity Function1
+Activity Function2
+
+
+Relational Model (SQL) -> MS SQL -> IAAS - VM -> PAAS MS SQL (managed database)
+No SQL (Document DB) -> No SQL
+
+Storage Account -> Table Storage
+Cosmos DB Account -> No SQL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
