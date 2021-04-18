@@ -1,0 +1,132 @@
+App - Books Specific Theater -
+
+8.30 - Request1 -> C34 -> Payment Confiramtion -> Unlock
+
+Threads -> Lock -> Very Complex
+
+
+File -> Member1 -> CheckOut (lock) -> Make Edits ->
+
+File -> Member1 (12345) -> Commiting -> File Content (versionId) -> Failure
+	memebr2 (12345) -> Commited -> File(123456)
+
+Default -> Last Writer Wins
+Optimistic -> ETag
+Pessimistic ->
+
+if-match - etag
+
+User1 -> http://localhost:/script.js -> POP  -> origin
+
+User2 -> http://localhost:/script.js?ver=nghwqg2312313 -> POP  -> originServer
+
+10 POP -> 
+
+request1 - server1(POP) - origin
+request2 - server2(POP)
+
+
+User1 -> http://localhost:/script.js?ver=2.10 -> POP (Skip) -> Origin Server (ByPass caching)
+
+User1 -> http://localhost:/script.js?ver=2.10 -> POP (Cache) -> Origin Server (Every Unique URL)
+User1 -> http://localhost:/script.js?ver=2.11 -> POP (Cache) -> Origin Server (Every Unique URL)
+
+User1 -> http://localhost:/script.js?ver=2.10 -> POP -> Origin Server (Igonore Query String)
+User1 -> http://localhost:/script.js?ver=2.11 -> POP  
+
+
+listImages
+
+for each -> Image -> <image src="img.url">
+
+blob trigger -> function  -> bolbUrl -> strorage Account url -> replace -> cdnend -> FrontendAPP
+
+Relational ->
+No SQL -> 
+
+Social Media Application - (100000)
+
+20000 -> 1image (200mb) -> 1MB / Day
+
+20000 * 1MB = 
+
+1year - 7TB
+
+1server - 20TB
+
+Shreadding :
+5 Servers - Each Server -> 20TB
+
+MasterDB -> Keeps Mapping -> 
+
+Server1 (ASIA) -
+Server2 (American) -
+Server3 (EMEA) -
+
+Azure -> 2 No SQL -> Table Storage, Cosmos DB
+
+Entry -
+Partition Key
+ROW key
+
+PrimaryKey = Partition Key + ROW key
+
+ ZipCode
+ 754205  12345
+
+ 754205  123456
+
+ 754204  12345
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

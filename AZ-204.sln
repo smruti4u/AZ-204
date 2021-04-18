@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJob.SDK", "WebJob.SDK\We
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionApp", "FunctionApp", "{F439E177-CFAF-4E12-B011-14027C849044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsFunctionApp", "VsFunctionApp\VsFunctionApp.csproj", "{051B6221-6129-484B-910F-D4998043625A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VsFunctionApp", "VsFunctionApp\VsFunctionApp.csproj", "{051B6221-6129-484B-910F-D4998043625A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableFunction", "DurableFunction\DurableFunction.csproj", "{986C252E-C30F-49AB-B4CA-3914778D485A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunction", "DurableFunction\DurableFunction.csproj", "{986C252E-C30F-49AB-B4CA-3914778D485A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blobs", "Blobs", "{72B89CBC-5E70-497D-8A0E-120788419058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlobsSDK", "AzureBlobsSDK\AzureBlobsSDK.csproj", "{88C3B97E-0C3E-4476-8F00-BD3B241F19C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{986C252E-C30F-49AB-B4CA-3914778D485A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986C252E-C30F-49AB-B4CA-3914778D485A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986C252E-C30F-49AB-B4CA-3914778D485A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C3B97E-0C3E-4476-8F00-BD3B241F19C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C3B97E-0C3E-4476-8F00-BD3B241F19C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C3B97E-0C3E-4476-8F00-BD3B241F19C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C3B97E-0C3E-4476-8F00-BD3B241F19C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,7 @@ Global
 		{470DF7C9-9B19-4E9B-B3E5-5A759DF63448} = {BC96797D-8D9D-4947-8DAF-CFAB2B7131B6}
 		{051B6221-6129-484B-910F-D4998043625A} = {F439E177-CFAF-4E12-B011-14027C849044}
 		{986C252E-C30F-49AB-B4CA-3914778D485A} = {F439E177-CFAF-4E12-B011-14027C849044}
+		{88C3B97E-0C3E-4476-8F00-BD3B241F19C2} = {72B89CBC-5E70-497D-8A0E-120788419058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4455941B-F273-4C5D-854C-81EFBB03B5CF}
