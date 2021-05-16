@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h1 class="display-4">Welcome @User.Identity.Name</h1>
+        <p>
+            Learn about <a href="https://docs.microsoft.com/aspnet/core">Authenticated Section.</a>
+
+        <p></p>
+        <a asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut">Sign Out</a>
+        </p>
+    }
+    else
+    {
+        <h3>Please Sign In To Continue.</h3>
+        <a asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Sign In</a>
+    }
+</div>
